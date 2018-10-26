@@ -1,0 +1,69 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+
+
+@media (min-width: 576px) { 
+	.forcast h2 {
+		font-size: 13px;
+	}
+}
+
+@media (min-width: 768px) { 
+	.forcast h2 {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) { 
+	.forcast h2 {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 1200px) { 
+	.forcast h2 {
+		font-size: 32px;
+	}
+}
+
+svg {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #222;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+path {
+	stroke: white;
+	fill: transparent;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+path:hover {
+	fill: #B99362;
+	transform: translate(-5px, -5px);
+}
+
+.title_area {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: white;
+	font-size: 30px;
+}
+
+hr {
+	width: 100px;
+	margin-left: 0;
+	border: none;
+	border-bottom: solid 2px white;
+}
+
+.forcast h2, .forcast h4, .forcast h5{
+	margin: 0;
+	font-family: 'Noto Sans TC', sans-serif;
+}
